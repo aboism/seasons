@@ -1,0 +1,39 @@
+body {
+  background-color: #7b97dd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  margin: 3px;
+}
+
+.season {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn-col {
+  background-color: #eedf5a;
+}
+
+.btn-col:hover {
+  background-color: #bb0c06;
+  color: white;
+  transition: 0.3s;
+}
